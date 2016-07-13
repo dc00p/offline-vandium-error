@@ -1,0 +1,5 @@
+{
+  "name": "offline-vandium",
+  "custom": {},
+  "plugins": ["serverless-offline"]
+}
