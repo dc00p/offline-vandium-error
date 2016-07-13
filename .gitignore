@@ -38,4 +38,4 @@ node_modules
 #SERVERLESS
 admin.env
 .env
-
+_meta

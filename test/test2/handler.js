@@ -6,7 +6,7 @@ const db = require('offline-vandium-lib/db.js');
 var _connection = {};
 
 vandium.after(function () {
-  return _connection.release();
+  return _connection.end();
 });
 
 module.exports.handler = vandium(main);
